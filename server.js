@@ -9,7 +9,7 @@ const path = require('path');
 
 
 const app = express();
-app.use(express.json({ extend: false }));
+app.use(express.json({ extended: false }));
 connectDB();
 
 
@@ -26,6 +26,7 @@ if (process.env.NODE_ENV === 'production') {
 
 
 const PORT = process.env.PORT || 5000;
+
 
 
 app.listen(PORT, () => {
