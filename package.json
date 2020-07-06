@@ -1,0 +1,25 @@
+{
+  "name": "validation_form_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Igor Dubov",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.0",
+    "mongoose": "^5.9.21"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
