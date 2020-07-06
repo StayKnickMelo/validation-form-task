@@ -1,0 +1,4 @@
+{
+  "PORT": 5000,
+  "MONGO_URI": "mongodb+srv://igor:123qweasd@cluster0.o7tuv.mongodb.net/form?retryWrites=true&w=majority"
+}
